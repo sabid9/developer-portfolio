@@ -46,6 +46,15 @@ nav>ul>li {
     font-size: larger;
 }
 
+.con{
+    background-color: white;
+    padding: 10px;
+    color: #FD6E0A;
+    border-radius: 3px;
+    font-size: larger;
+    border-color: #FD6E0A;
+}
+
 /* header related styles */
 .header {
     background-color: #fff8f3;
