@@ -1,62 +1,105 @@
-
-body{
-    font-family: 'lato',sans-serif;
+body {
+    font-family: 'lato', sans-serif;
     font-family: 'open sans', sans-serif;
 }
 
 nav {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
-    
-    
+
+
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800px;
     font-size: 45px;
     color: #181818;
-    
+
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
-    
+
 }
 
-nav>ul{
+nav>ul {
     list-style: none;
     display: flex;
     align-items: center;
-    
+    color: #474747;
+
 }
 
-nav> ul >li{
+nav>ul>li {
     margin: 10px;
     padding: 10px;
 }
 
-.btn{
-    background-color:#FD6E0A;
+.btn {
+    background-color: #FD6E0A;
     border: none;
     padding: 10px;
     color: white;
     border-radius: 3px;
+    font-size: larger;
 }
 
 /* header related styles */
-.header{
+.header {
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
+.banner {
+    padding: 30px 30px 0px 0px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
+    margin-left:  200px;
+   
 }
 
-.banner .profile-pic{
-    width: 500px
+.banner-greting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
 }
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner .profile-pic {
+    width: 500px;
+    
+}
+
+p{
+    font-size: 18;
+}
+
+
+/* main section */
+
+/* for about me */
+.about{
+    background-color: #fff8f3;
+    margin: 200px;
+    padding: 300px;
+    text-align: center;
+    
+}
+
+.mheads{
+    font-size: 55;
+    font-weight: bold;
+}
+
