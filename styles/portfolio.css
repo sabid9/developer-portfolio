@@ -117,9 +117,7 @@ section{
     background-color: #fff8f3;
 }
 
-.mydo{
-    
-}
+
 
 .about-info-container{
     display: flex;
@@ -181,7 +179,22 @@ footer{
     max-width: 50%;
     padding: 0 100px 30px;
     margin-bottom: 30px;
+    
 
+}
+.social-connect a{
+    margin-right: 25px;
+}
+
+.form-connect input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 25px;
+    color: #757575;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
 }
 
 
