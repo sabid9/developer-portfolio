@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'lato',sans-serif;
+    font-family: 'open sans', sans-serif;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    
+    
+}
+
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+    color: #181818;
+    
+}
+
+.text-primary{
+    color: #FD6E0A;
+    
+}
+
+nav>ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav> ul >li{
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn{
+    background-color:#FD6E0A;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+}
+
+/* header related styles */
+.header{
+    background-color: #fff8f3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner .profile-pic{
+    width: 500px
+}
