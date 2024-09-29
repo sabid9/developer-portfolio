@@ -61,6 +61,7 @@ nav>ul>li {
     align-items: center;
     justify-content: space-between;
     margin-left:  200px;
+    margin-bottom: 100px;
    
 }
 
@@ -74,7 +75,7 @@ nav>ul>li {
     font-size: 85px;
     font-weight: 800;
     margin-top: 5px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .banner .profile-pic {
@@ -89,17 +90,29 @@ p{
 
 /* main section */
 
-/* for about me */
-.about{
-    background-color: #fff8f3;
-    margin: 200px;
-    padding: 300px;
-    text-align: center;
-    
+main{
+    max-width: 1140;
+    margin: 0 auto;
 }
 
 .mheads{
-    font-size: 55;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
 }
+
+/* for about me */
+.about{
+    background-color: #fff8f3;
+    text-align: center;
+    margin: 20px 200px;
+    padding: 100px;  
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
